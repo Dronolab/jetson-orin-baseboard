@@ -1609,7 +1609,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../Downloads/jetson-orin-baseboard.step",
       "vrml": "jetson-orin-baseboard.wrl"
     },
     "page_layout_descr_file": ""

@@ -6,10 +6,10 @@
 
   (title_block
     (title "Jetson Orin Baseboard")
-    (date "2023-03-03")
-    (rev "1.1.0")
-    (company "Antmicro Ltd")
-    (comment 1 "www.antmicro.com")
+    (date "2023-07-05")
+    (rev "1.0.0")
+    (company "Dronolab")
+    (comment 1 "dronolab.etsmtl.ca")
   )
 
   (lib_symbols
@@ -25364,7 +25364,7 @@
     )
   )
 
-  (text "github.com/antmicro/jetson-orin-baseboard" (at 14.605 31.115 0)
+  (text "github.com/dronolab/jetson-orin-baseboard" (at 14.605 31.115 0)
     (effects (font (size 3 3) (thickness 0.4) bold) (justify left bottom))
     (uuid 492ae87b-0f0a-4add-9db9-45db485d085a)
   )
