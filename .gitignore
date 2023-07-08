@@ -33,3 +33,4 @@ fp-info-cache
 
 *swp
 ~jetson-orin-baseboard.kicad_sch.lck
+*.lck
