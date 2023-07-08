@@ -32,3 +32,4 @@ fp-info-cache
 *.csv
 
 *swp
+~jetson-orin-baseboard.kicad_sch.lck
