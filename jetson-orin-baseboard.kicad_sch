@@ -25531,6 +25531,23 @@
     )
   )
 
+  (sheet (at 283.083 210.566) (size 12.7 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2fa436cd-5c26-4e4a-b48c-59983497db7a)
+    (property "Sheetname" "4G" (at 283.083 209.8544 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4g.kicad_sch" (at 283.083 223.8506 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "jetson-orin-baseboard"
+        (path "/4b393452-b11e-416e-bc83-918ae3cab2f1" (page "11"))
+      )
+    )
+  )
+
   (sheet (at 282.575 185.42) (size 12.7 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
