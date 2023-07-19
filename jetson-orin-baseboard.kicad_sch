@@ -25372,7 +25372,7 @@
     (effects (font (size 8 8) (thickness 0.3) bold) (justify left bottom))
     (uuid 4f67f5c4-5d1b-4138-ae53-883432c6f9cb)
   )
-  (text "Ajouter buzzer\n6 CSI Interfaces" (at 156.845 56.515 0)
+  (text "6 CSI Interfaces" (at 156.845 56.515 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a23961b2-37d7-408e-a389-970d672873f4)
   )
