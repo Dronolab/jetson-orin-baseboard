@@ -25372,8 +25372,7 @@
     (effects (font (size 8 8) (thickness 0.3) bold) (justify left bottom))
     (uuid 4f67f5c4-5d1b-4138-ae53-883432c6f9cb)
   )
-  (text "Merge usb-c debug et usb-c 1(sheet usb3)\nAjouter buzzer\nChoisir une camera(déterminer les critères qu'on désire)(Voir pour stéréo déjà faite ou qu'on fait nous même)\nQuand on va avoir une camera : Changer les CSI/interface en fonction du protocole de la camera choisie\nAjouter la 4G\nAjouter un port ARA juste le Jetson carrier board(16 pin du ARA sur 16 pin qui arrive sur le Jetson)\nRefaire le connecteur PAC(Expansion Connector)"
-    (at 155.575 64.135 0)
+  (text "Ajouter buzzer\n6 CSI Interfaces" (at 156.845 56.515 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a23961b2-37d7-408e-a389-970d672873f4)
   )
