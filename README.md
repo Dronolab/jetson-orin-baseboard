@@ -1,6 +1,6 @@
-# Jetson Orin Baseboard
+# Dronolab Jetson Orin Carrier Board
 
-Copyright (c) 2022-2023 [Antmicro](https://www.antmicro.com)
+Modified Version of [Jetson Orin Baseboard](https://github.com/antmicro/jetson-orin-baseboard) by [Antmicro](https://www.antmicro.com)
 
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/jetson-orin-baseboard)
 
@@ -8,25 +8,23 @@ Copyright (c) 2022-2023 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This project contains open hardware design files for a baseboard supporting NVIDIA Jetson Orin Nano and Jetson Orin NX System on Modules (SoMs). 
-The board break-routes the typical IO interfaces from the SoM.
-Additionally, it exposes an expansion connector which allows it to be integrated with external processing modules using PCIe or low-speed interfaces.
+This project contains hardware design files for a carrier board supporting NVIDIA Jetson Orin Nano and Jetson Orin NX System on Modules (SoMs). The board break-routes the typical IO interfaces from the SoM. Additionally, it exposes an expansion connector also known as the Payload Area Connector (PAC) that allows for an electrical connection for monitoring and control of any payload.
 
-The design files were preapared in KiCad 6.x.
+The design files were preapared in KiCad 7.x.
+
+## Quick Start
+
+Install Kicad's Latest Stable Release and Github Desktop. Clone this project using Github Desktop and make sure to set the option to contributing to the Dronolab Repository (not the Antmicro one). To make a change, create your own branch that describes the change being made. Once you are done, commit and push your changes. Finally, merge your branch to main and wait for approval.
 
 ## Key features
 
-* Two USB PD ports
 * DC Power connector
-* MIPI CSI-2 interfaces on 50-pin connectors with configurable lane mapping
-* Micro HDMI connector
-* USB-C 10 Gbps with USB PD and DP
-* USB-C 10 Gbps
-* USB-C UART with USB PD
-* M.2 key M
-* M.2 key E
-* 1Gb Ethernet with PoE
-* Custom expansion connector
+* MIPI CSI-2 interfaces
+* USB-C 10 Gbps with DP Alternate Mode
+* USB-C 10 Gbps + USB-C Uart
+* M.2 key M for SSD
+* 1Gb Ethernet
+* Custom Payload Area Connector (PAC)
 * RTC battery backup
 
 ## Project structure
@@ -37,14 +35,6 @@ The remaining files are stored in the following directories:
 * `lib` - contains the component libraries
 * `img` - contains graphics for this README
 * `doc` - contains schematics in pdf form
-
-The board exposes MIPI CSI-2 interfaces using unified 50-pin connectors that are electrically compatible with a variety of video accessories created by Antmicro:
-
-* [SDI-MIPI Video converter](https://github.com/antmicro/sdi-mipi-video-converter)
-* [FRAMOS camera adapter](https://github.com/antmicro/framos-csi-adapter)
-* [Allied Vision Alvium Camera Adapter](https://github.com/antmicro/alvium-flexible-csi-adapter)
-* [HDMI-MIPI bridge](https://github.com/antmicro/hdmi-mipi-bridge)
-* [OV9281 Dual camera board](https://github.com/antmicro/ov9281-camera-board)
 
 ## Block diagram
 
