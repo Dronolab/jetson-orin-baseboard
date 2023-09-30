@@ -2,8 +2,6 @@
 
 Modified Version of [Jetson Orin Baseboard](https://github.com/antmicro/jetson-orin-baseboard) by [Antmicro](https://www.antmicro.com)
 
-[![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/jetson-orin-baseboard)
-
 ![](img/jetson-orin-baseboard-photo.png)
 
 ## Overview
