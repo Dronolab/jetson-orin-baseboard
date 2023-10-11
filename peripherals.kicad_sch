@@ -7600,7 +7600,7 @@
     (property "Reference" "J7" (at 184.785 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_02x08_Counter_Clockwise" (at 184.785 60.96 0)
+    (property "Value" "FC Conn" (at 184.785 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 183.515 71.755 0)

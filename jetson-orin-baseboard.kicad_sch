@@ -25611,7 +25611,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 74489b5f-faab-4d0f-b844-94a09965eefb)
-    (property "Sheetname" "CSI" (at 171.958 206.2984 0)
+    (property "Sheetname" "Cameras" (at 171.958 206.2984 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "csi.kicad_sch" (at 171.958 220.2946 0)
