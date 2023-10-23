@@ -25372,6 +25372,11 @@
     (effects (font (size 5 5) (thickness 0.4) bold) (justify left bottom))
     (uuid b72119c3-5806-4e35-9069-3aa5c92c8b08)
   )
+  (text "Things Left to check:\n-Get unusable I2C addresses for PAC (from USB-C sys)\n-Check if IMU needs INT\n-Check USB-C HPD circuit in SOM page\n-Check Ethernet DS to confirm layout\n-Check M.2 with jetson-orin-baseboard pdf\n-Check Cameras with Jetson Orin Nano pdf\n-Compare USB-C schematics with datasheets and jetson-orin-baseboard pdf\n-Recheck Peripherals\n-Check IMU with DS\n-Check 4G with DS\n-Understand whole supply schematic"
+    (at 164.465 41.91 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dad2755a-401e-42b1-909f-03594df5b2f8)
+  )
 
   (symbol (lib_id "jetson-orin-baseboard:GND") (at 383.54 246.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
@@ -25535,23 +25540,6 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1" (page "11"))
-      )
-    )
-  )
-
-  (sheet (at 265.303 181.61) (size 12.7 12.7) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 31739f71-b125-4faf-b93a-57120f7ec907)
-    (property "Sheetname" "MEMS" (at 265.303 180.8984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "mems.kicad_sch" (at 265.303 194.8946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "jetson-orin-baseboard"
-        (path "/4b393452-b11e-416e-bc83-918ae3cab2f1" (page "10"))
       )
     )
   )

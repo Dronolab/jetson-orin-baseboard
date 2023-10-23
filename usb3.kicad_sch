@@ -4903,7 +4903,7 @@
     (uuid eb048226-20ec-4d62-a735-d2c6b46d034c)
   )
 
-  (global_label "GPIO010" (shape output) (at 107.95 177.8 180)
+  (global_label "GPIO10" (shape output) (at 107.95 177.8 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 06a1df76-17f9-4287-9740-a397ce0260f4)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 86.36 177.8 0)
