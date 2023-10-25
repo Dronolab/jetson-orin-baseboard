@@ -25372,11 +25372,6 @@
     (effects (font (size 5 5) (thickness 0.4) bold) (justify left bottom))
     (uuid b72119c3-5806-4e35-9069-3aa5c92c8b08)
   )
-  (text "Things Left to check:\n-Check USB-C HPD circuit in SOM page\n-Check Ethernet DS to confirm layout\n-Compare USB-C schematics with datasheets and jetson-orin-baseboard pdf\n-Recheck Peripherals\n-Check IMU with DS\n-Check 4G with DS\n-Understand whole supply schematic"
-    (at 164.465 41.91 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid dad2755a-401e-42b1-909f-03594df5b2f8)
-  )
 
   (symbol (lib_id "jetson-orin-baseboard:GND") (at 383.54 246.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
