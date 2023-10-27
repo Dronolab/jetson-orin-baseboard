@@ -10133,17 +10133,9 @@
         (name "PP_HV1" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin bidirectional line (at -16.51 22.86 0) (length 2.54) hide
-        (name "PP_HV1" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at 15.24 22.86 180) (length 2.54)
         (name "VBUS1" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 15.24 22.86 180) (length 2.54) hide
-        (name "VBUS1" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 15.24 6.35 180) (length 2.54) hide
         (name "DRAIN1" (effects (font (size 1.27 1.27))))
@@ -10152,10 +10144,6 @@
       (pin passive line (at 15.24 6.35 180) (length 2.54) hide
         (name "DRAIN1" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -16.51 17.78 0) (length 2.54) hide
-        (name "PP_HV2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 15.24 13.97 180) (length 2.54)
         (name "C_CC1" (effects (font (size 1.27 1.27))))
@@ -10172,10 +10160,6 @@
       (pin bidirectional line (at 15.24 17.78 180) (length 2.54)
         (name "VBUS2" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 15.24 17.78 180) (length 2.54) hide
-        (name "VBUS2" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -16.51 2.54 0) (length 2.54)
         (name "C_USB_P/GPIO18" (effects (font (size 1.27 1.27))))
