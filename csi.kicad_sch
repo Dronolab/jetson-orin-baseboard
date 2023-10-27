@@ -4112,7 +4112,7 @@
   (symbol (lib_id "power:GND") (at 275.59 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0023d674-3a6f-4a39-8751-2f59bbda4a44)
-    (property "Reference" "#PWR0140" (at 275.59 125.73 0)
+    (property "Reference" "#PWR0149" (at 275.59 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 275.59 123.825 0)
@@ -4128,7 +4128,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0140") (unit 1)
+          (reference "#PWR0149") (unit 1)
         )
       )
     )
@@ -4137,7 +4137,7 @@
   (symbol (lib_id "power:+3V3") (at 148.59 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03a51fba-d67c-4fef-9f94-5d8d0f97fb9e)
-    (property "Reference" "#PWR074" (at 148.59 166.37 0)
+    (property "Reference" "#PWR0131" (at 148.59 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 148.59 158.115 0)
@@ -4153,7 +4153,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -4162,7 +4162,7 @@
   (symbol (lib_id "power:GND") (at 54.61 252.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05e248e2-4526-4049-ad11-1797a65c3d3b)
-    (property "Reference" "#PWR079" (at 54.61 259.08 0)
+    (property "Reference" "#PWR0125" (at 54.61 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 257.81 0)
@@ -4178,7 +4178,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
@@ -4187,7 +4187,7 @@
   (symbol (lib_id "power:GND") (at 285.75 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07630a2a-c12c-4a9d-918b-3bf02190b461)
-    (property "Reference" "#PWR0141" (at 285.75 125.73 0)
+    (property "Reference" "#PWR0151" (at 285.75 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 285.75 123.825 0)
@@ -4203,7 +4203,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0141") (unit 1)
+          (reference "#PWR0151") (unit 1)
         )
       )
     )
@@ -4212,13 +4212,13 @@
   (symbol (lib_id "jetson-orin-baseboard:R_0R_0402") (at 50.8 236.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0abb8e9a-81d6-4448-bed7-2c6301372676)
-    (property "Reference" "R40" (at 48.26 241.3 0)
+    (property "Reference" "R97" (at 48.26 241.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R_0R_0402" (at 30.48 248.92 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric" (at 30.48 251.46 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:0402-res" (at 30.48 251.46 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf" (at 30.48 254 0)
@@ -4250,7 +4250,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "R40") (unit 1)
+          (reference "R97") (unit 1)
         )
       )
     )
@@ -4259,7 +4259,7 @@
   (symbol (lib_id "power:GND") (at 245.11 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c20f2ba-5bc6-407e-9972-65c39ce020c5)
-    (property "Reference" "#PWR0137" (at 245.11 125.73 0)
+    (property "Reference" "#PWR0143" (at 245.11 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 245.11 123.825 0)
@@ -4275,7 +4275,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0137") (unit 1)
+          (reference "#PWR0143") (unit 1)
         )
       )
     )
@@ -4284,7 +4284,7 @@
   (symbol (lib_id "power:GND") (at 337.82 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 113eb39c-7ff3-4cb0-924c-b99d1f5eda4a)
-    (property "Reference" "#PWR0167" (at 337.82 217.17 0)
+    (property "Reference" "#PWR0162" (at 337.82 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 337.82 215.265 0)
@@ -4300,7 +4300,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0167") (unit 1)
+          (reference "#PWR0162") (unit 1)
         )
       )
     )
@@ -4309,7 +4309,7 @@
   (symbol (lib_id "power:GND") (at 349.25 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1187f883-c0a9-49ac-9db8-82212d4204fe)
-    (property "Reference" "#PWR0168" (at 349.25 198.12 0)
+    (property "Reference" "#PWR0164" (at 349.25 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 349.25 196.215 0)
@@ -4325,7 +4325,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0168") (unit 1)
+          (reference "#PWR0164") (unit 1)
         )
       )
     )
@@ -4334,13 +4334,13 @@
   (symbol (lib_id "Device:D_Zener") (at 245.11 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1239bf6c-8378-4ca2-bf55-f5ce3f2a1be0)
-    (property "Reference" "D21" (at 247.65 111.76 90)
+    (property "Reference" "D19" (at 247.65 111.76 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 247.65 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 245.11 113.03 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 245.11 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 245.11 113.03 0)
@@ -4351,7 +4351,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D21") (unit 1)
+          (reference "D19") (unit 1)
         )
       )
     )
@@ -4360,7 +4360,7 @@
   (symbol (lib_id "power:GND") (at 295.91 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1382cb98-e779-448e-af53-b95af0bc8d21)
-    (property "Reference" "#PWR0144" (at 295.91 125.73 0)
+    (property "Reference" "#PWR0153" (at 295.91 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 295.91 123.825 0)
@@ -4376,7 +4376,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0144") (unit 1)
+          (reference "#PWR0153") (unit 1)
         )
       )
     )
@@ -4385,7 +4385,7 @@
   (symbol (lib_id "power:GND") (at 265.43 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14ed40b5-69fb-4b74-a9f7-7e0da8ccec30)
-    (property "Reference" "#PWR0160" (at 265.43 217.17 0)
+    (property "Reference" "#PWR0148" (at 265.43 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 265.43 215.265 0)
@@ -4401,7 +4401,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0160") (unit 1)
+          (reference "#PWR0148") (unit 1)
         )
       )
     )
@@ -4410,13 +4410,13 @@
   (symbol (lib_id "jetson-orin-baseboard:R_0R_0402") (at 50.8 233.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18994612-cacc-4845-8efd-bdde50ca3c87)
-    (property "Reference" "R36" (at 48.26 228.6 0)
+    (property "Reference" "R96" (at 48.26 228.6 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R_0R_0402" (at 30.48 220.98 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric" (at 30.48 218.44 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:0402-res" (at 30.48 218.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf" (at 30.48 215.9 0)
@@ -4448,7 +4448,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "R36") (unit 1)
+          (reference "R96") (unit 1)
         )
       )
     )
@@ -4457,13 +4457,13 @@
   (symbol (lib_id "Device:D_Zener") (at 316.23 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1da90674-2f74-4eb6-83ff-d64eec7edabc)
-    (property "Reference" "D40" (at 318.77 111.76 90)
+    (property "Reference" "D33" (at 318.77 111.76 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 318.77 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 316.23 113.03 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 316.23 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 316.23 113.03 0)
@@ -4474,7 +4474,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D40") (unit 1)
+          (reference "D33") (unit 1)
         )
       )
     )
@@ -4483,7 +4483,7 @@
   (symbol (lib_id "power:GND") (at 106.68 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e85cde6-5ac3-42ec-99cd-a936e2891851)
-    (property "Reference" "#PWR081" (at 106.68 256.54 0)
+    (property "Reference" "#PWR0127" (at 106.68 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 255.27 0)
@@ -4499,7 +4499,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
       )
     )
@@ -4508,13 +4508,13 @@
   (symbol (lib_id "Device:R") (at 101.6 248.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fb060dd-c681-4181-9e2d-44959d91b139)
-    (property "Reference" "R7" (at 101.6 243.84 90)
+    (property "Reference" "R98" (at 101.6 243.84 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 101.6 246.38 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 101.6 250.698 90)
+    (property "Footprint" "jetson-orin-baseboard-footprints:0402-res" (at 101.6 250.698 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 101.6 248.92 0)
@@ -4525,7 +4525,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "R7") (unit 1)
+          (reference "R98") (unit 1)
         )
       )
     )
@@ -4534,7 +4534,7 @@
   (symbol (lib_id "power:GND") (at 295.91 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 200a4844-401b-4c3b-8550-a1882e32f127)
-    (property "Reference" "#PWR0163" (at 295.91 217.17 0)
+    (property "Reference" "#PWR0154" (at 295.91 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 295.91 215.265 0)
@@ -4550,7 +4550,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0163") (unit 1)
+          (reference "#PWR0154") (unit 1)
         )
       )
     )
@@ -4559,13 +4559,13 @@
   (symbol (lib_id "Device:D_Zener") (at 255.27 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2281ba52-a364-4e38-9451-d94ebd54914e)
-    (property "Reference" "D22" (at 257.81 111.76 90)
+    (property "Reference" "D21" (at 257.81 111.76 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 257.81 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 255.27 113.03 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 255.27 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 255.27 113.03 0)
@@ -4576,7 +4576,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D22") (unit 1)
+          (reference "D21") (unit 1)
         )
       )
     )
@@ -4585,7 +4585,7 @@
   (symbol (lib_id "power:GND") (at 148.59 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2521df1c-9082-4583-a8bd-f0a67c67145e)
-    (property "Reference" "#PWR077" (at 148.59 173.99 0)
+    (property "Reference" "#PWR0132" (at 148.59 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 172.085 0)
@@ -4601,7 +4601,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -4610,13 +4610,13 @@
   (symbol (lib_id "Device:D_Zener") (at 285.75 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2794f6cf-85af-4eea-8d77-be2b70c6ce61)
-    (property "Reference" "D25" (at 288.29 111.76 90)
+    (property "Reference" "D27" (at 288.29 111.76 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 288.29 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 285.75 113.03 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 285.75 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 285.75 113.03 0)
@@ -4627,7 +4627,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D25") (unit 1)
+          (reference "D27") (unit 1)
         )
       )
     )
@@ -4636,13 +4636,13 @@
   (symbol (lib_id "Device:R") (at 138.43 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32fd5008-e1f6-49d2-aacb-25b64f1ced91)
-    (property "Reference" "R10" (at 140.97 220.98 0)
+    (property "Reference" "R102" (at 140.97 220.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 140.97 223.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 136.652 222.25 90)
+    (property "Footprint" "jetson-orin-baseboard-footprints:0402-res" (at 136.652 222.25 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 222.25 0)
@@ -4653,7 +4653,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "R10") (unit 1)
+          (reference "R102") (unit 1)
         )
       )
     )
@@ -4662,7 +4662,7 @@
   (symbol (lib_id "power:+3V3") (at 57.15 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ad20dd2-93d7-4891-8b16-30db51775970)
-    (property "Reference" "#PWR011" (at 57.15 223.52 0)
+    (property "Reference" "#PWR0126" (at 57.15 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 57.15 214.63 0)
@@ -4678,7 +4678,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -4687,13 +4687,13 @@
   (symbol (lib_id "Device:D_Zener") (at 234.95 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3eae2884-d45b-4a74-be86-aed4d1e9cdbf)
-    (property "Reference" "D20" (at 237.49 111.76 90)
+    (property "Reference" "D17" (at 237.49 111.76 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 237.49 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 234.95 113.03 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 234.95 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 234.95 113.03 0)
@@ -4704,7 +4704,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D20") (unit 1)
+          (reference "D17") (unit 1)
         )
       )
     )
@@ -4713,7 +4713,7 @@
   (symbol (lib_id "power:+3V3") (at 148.59 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ecf8cb6-d722-4308-99b4-5704aa7dd0a5)
-    (property "Reference" "#PWR027" (at 148.59 74.93 0)
+    (property "Reference" "#PWR0129" (at 148.59 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 148.59 66.675 0)
@@ -4729,7 +4729,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -4738,7 +4738,7 @@
   (symbol (lib_id "power:GND") (at 265.43 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42d3adb9-3aec-4907-8192-e0020338f565)
-    (property "Reference" "#PWR0139" (at 265.43 125.73 0)
+    (property "Reference" "#PWR0147" (at 265.43 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 265.43 123.825 0)
@@ -4754,7 +4754,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
@@ -4763,7 +4763,7 @@
   (symbol (lib_id "power:GND") (at 285.75 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 439d8a6f-9002-4a19-830e-1f4f51293f3b)
-    (property "Reference" "#PWR0162" (at 285.75 217.17 0)
+    (property "Reference" "#PWR0152" (at 285.75 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 285.75 215.265 0)
@@ -4779,7 +4779,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0162") (unit 1)
+          (reference "#PWR0152") (unit 1)
         )
       )
     )
@@ -4788,7 +4788,7 @@
   (symbol (lib_id "power:GND") (at 316.23 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c26852b-288f-43e4-9525-a57cb3e96386)
-    (property "Reference" "#PWR0165" (at 316.23 217.17 0)
+    (property "Reference" "#PWR0158" (at 316.23 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 316.23 215.265 0)
@@ -4804,7 +4804,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0165") (unit 1)
+          (reference "#PWR0158") (unit 1)
         )
       )
     )
@@ -4813,7 +4813,7 @@
   (symbol (lib_id "power:GND") (at 214.63 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c464dfb-0713-4507-a154-134803c3778b)
-    (property "Reference" "#PWR0100" (at 214.63 125.73 0)
+    (property "Reference" "#PWR0137" (at 214.63 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 214.63 123.825 0)
@@ -4829,7 +4829,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
@@ -4838,13 +4838,13 @@
   (symbol (lib_id "Device:R") (at 48.26 248.92 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5158eb04-9a42-4285-85bd-0eca534952e3)
-    (property "Reference" "R6" (at 50.8 247.65 0)
+    (property "Reference" "R95" (at 50.8 247.65 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 50.8 250.19 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 50.038 248.92 90)
+    (property "Footprint" "jetson-orin-baseboard-footprints:0402-res" (at 50.038 248.92 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 48.26 248.92 0)
@@ -4855,7 +4855,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "R6") (unit 1)
+          (reference "R95") (unit 1)
         )
       )
     )
@@ -4864,13 +4864,13 @@
   (symbol (lib_id "Device:D_Zener") (at 265.43 204.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53d4ff2a-1fe8-4317-b322-a7af6ecfc330)
-    (property "Reference" "D47" (at 267.97 203.2 90)
+    (property "Reference" "D24" (at 267.97 203.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 267.97 205.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 265.43 204.47 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 265.43 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 265.43 204.47 0)
@@ -4881,7 +4881,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D47") (unit 1)
+          (reference "D24") (unit 1)
         )
       )
     )
@@ -4890,7 +4890,7 @@
   (symbol (lib_id "power:GND") (at 326.39 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ca802c0-2856-402e-86f3-55e2762b6bd1)
-    (property "Reference" "#PWR0166" (at 326.39 217.17 0)
+    (property "Reference" "#PWR0160" (at 326.39 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 326.39 215.265 0)
@@ -4906,7 +4906,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0166") (unit 1)
+          (reference "#PWR0160") (unit 1)
         )
       )
     )
@@ -4915,13 +4915,13 @@
   (symbol (lib_id "Device:D_Zener") (at 306.07 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5cf684ab-790c-43d6-b39e-8c571cc832e2)
-    (property "Reference" "D39" (at 308.61 111.76 90)
+    (property "Reference" "D31" (at 308.61 111.76 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 308.61 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 306.07 113.03 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 306.07 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 306.07 113.03 0)
@@ -4932,7 +4932,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D39") (unit 1)
+          (reference "D31") (unit 1)
         )
       )
     )
@@ -4941,7 +4941,7 @@
   (symbol (lib_id "power:GND") (at 148.59 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5cf7c6c9-99ce-4264-a867-7ba895de49e8)
-    (property "Reference" "#PWR026" (at 148.59 82.55 0)
+    (property "Reference" "#PWR0130" (at 148.59 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 80.645 0)
@@ -4957,7 +4957,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -4966,7 +4966,7 @@
   (symbol (lib_id "power:GND") (at 180.34 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e6d964a-4862-4778-bbc9-420627f08aae)
-    (property "Reference" "#PWR028" (at 180.34 95.25 0)
+    (property "Reference" "#PWR0133" (at 180.34 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 93.345 0)
@@ -4982,7 +4982,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
       )
     )
@@ -4991,7 +4991,7 @@
   (symbol (lib_id "power:GND") (at 349.25 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f9786ad-07fa-4393-8282-2164027bdc46)
-    (property "Reference" "#PWR094" (at 349.25 106.68 0)
+    (property "Reference" "#PWR0163" (at 349.25 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 349.25 104.775 0)
@@ -5007,7 +5007,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR0163") (unit 1)
         )
       )
     )
@@ -5016,7 +5016,7 @@
   (symbol (lib_id "power:GND") (at 180.34 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61b13fd7-50b3-48c6-b84e-5ac0a5377e56)
-    (property "Reference" "#PWR091" (at 180.34 186.69 0)
+    (property "Reference" "#PWR0134" (at 180.34 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 184.785 0)
@@ -5032,7 +5032,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -5041,13 +5041,13 @@
   (symbol (lib_id "TS3USB30ERSWR:TS3USB30ERSWR") (at 77.47 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67588ec0-02e9-4d8b-bd92-464d3a46390e)
-    (property "Reference" "U9" (at 77.47 210.82 0)
+    (property "Reference" "U17" (at 77.47 210.82 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TS3USB30ERSWR" (at 77.47 213.36 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TS3USB30ERSWR:QFN40P140X180X55-10N" (at 77.47 231.14 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:QFN40P140X180X55-10N" (at 77.47 231.14 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 77.47 231.14 0)
@@ -5108,7 +5108,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "U9") (unit 1)
+          (reference "U17") (unit 1)
         )
       )
     )
@@ -5117,13 +5117,13 @@
   (symbol (lib_id "Device:D_Zener") (at 224.79 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 688a91fb-a577-4a22-be8c-2cdd686e200a)
-    (property "Reference" "D19" (at 227.33 111.76 90)
+    (property "Reference" "D15" (at 227.33 111.76 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 227.33 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 224.79 113.03 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 224.79 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 224.79 113.03 0)
@@ -5134,7 +5134,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D19") (unit 1)
+          (reference "D15") (unit 1)
         )
       )
     )
@@ -5143,13 +5143,13 @@
   (symbol (lib_id "F32R-1A7H1-11022:F32R-1A7H1-11022") (at 363.22 162.56 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 734d45dd-57d8-4bfe-983a-2a3d563064e2)
-    (property "Reference" "J13" (at 370.205 162.56 0)
+    (property "Reference" "J7" (at 370.205 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "F32R-1A7H1-11022" (at 370.205 160.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "F32R-1A7H1-11022:AMPHENOL_F32R-1A7H1-11022" (at 363.22 162.56 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:AMPHENOL_F32R-1A7H1-11022" (at 363.22 162.56 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 363.22 162.56 0)
@@ -5219,7 +5219,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "J13") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -5228,7 +5228,7 @@
   (symbol (lib_id "power:GND") (at 214.63 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73545b64-3da8-445f-a793-561ddc2c2665)
-    (property "Reference" "#PWR0155" (at 214.63 217.17 0)
+    (property "Reference" "#PWR0138" (at 214.63 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 214.63 215.265 0)
@@ -5244,7 +5244,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0155") (unit 1)
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -5253,7 +5253,7 @@
   (symbol (lib_id "power:GND") (at 326.39 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79f334b2-5e30-4bfc-8af2-1191910a7ec2)
-    (property "Reference" "#PWR0147" (at 326.39 125.73 0)
+    (property "Reference" "#PWR0159" (at 326.39 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 326.39 123.825 0)
@@ -5269,7 +5269,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0147") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
       )
     )
@@ -5278,7 +5278,7 @@
   (symbol (lib_id "power:GND") (at 234.95 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7eab1402-4e2f-4c29-a6c2-6d090fb55e79)
-    (property "Reference" "#PWR0157" (at 234.95 217.17 0)
+    (property "Reference" "#PWR0142" (at 234.95 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.95 215.265 0)
@@ -5294,7 +5294,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0157") (unit 1)
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -5303,13 +5303,13 @@
   (symbol (lib_id "Device:D_Zener") (at 326.39 204.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8319fc49-d162-424a-97b9-526c190e01d3)
-    (property "Reference" "D54" (at 328.93 203.2 90)
+    (property "Reference" "D36" (at 328.93 203.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 328.93 205.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 326.39 204.47 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 326.39 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 326.39 204.47 0)
@@ -5320,7 +5320,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D54") (unit 1)
+          (reference "D36") (unit 1)
         )
       )
     )
@@ -5329,13 +5329,13 @@
   (symbol (lib_id "Device:C") (at 337.82 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86ffa15a-0f1c-4400-b8d1-1460701e9cfb)
-    (property "Reference" "C84" (at 341.63 111.76 0)
+    (property "Reference" "C76" (at 341.63 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 341.63 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 338.7852 116.84 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:0402-cap" (at 338.7852 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 337.82 113.03 0)
@@ -5346,7 +5346,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "C84") (unit 1)
+          (reference "C76") (unit 1)
         )
       )
     )
@@ -5355,7 +5355,7 @@
   (symbol (lib_id "power:GND") (at 275.59 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88dd64f2-00d3-44ae-8ace-43643ffcee5e)
-    (property "Reference" "#PWR0161" (at 275.59 217.17 0)
+    (property "Reference" "#PWR0150" (at 275.59 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 275.59 215.265 0)
@@ -5371,7 +5371,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0161") (unit 1)
+          (reference "#PWR0150") (unit 1)
         )
       )
     )
@@ -5380,7 +5380,7 @@
   (symbol (lib_id "power:GND") (at 316.23 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89ef4fbf-9780-4b2a-8887-7371e14710a0)
-    (property "Reference" "#PWR0146" (at 316.23 125.73 0)
+    (property "Reference" "#PWR0157" (at 316.23 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 316.23 123.825 0)
@@ -5396,7 +5396,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0146") (unit 1)
+          (reference "#PWR0157") (unit 1)
         )
       )
     )
@@ -5405,7 +5405,7 @@
   (symbol (lib_id "power:GND") (at 306.07 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ddcf68e-c04a-483c-bb29-39505174d0dc)
-    (property "Reference" "#PWR0145" (at 306.07 125.73 0)
+    (property "Reference" "#PWR0155" (at 306.07 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 306.07 123.825 0)
@@ -5421,7 +5421,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0145") (unit 1)
+          (reference "#PWR0155") (unit 1)
         )
       )
     )
@@ -5436,7 +5436,7 @@
     (property "Value" "Zener" (at 267.97 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 265.43 113.03 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 265.43 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 265.43 113.03 0)
@@ -5456,13 +5456,13 @@
   (symbol (lib_id "Device:D_Zener") (at 214.63 204.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 924ef8dc-8f54-4dad-bcdc-2f7245d22c56)
-    (property "Reference" "D42" (at 217.17 203.2 90)
+    (property "Reference" "D14" (at 217.17 203.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 217.17 205.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 214.63 204.47 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 214.63 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 214.63 204.47 0)
@@ -5473,7 +5473,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D42") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
     )
@@ -5482,13 +5482,13 @@
   (symbol (lib_id "Device:D_Zener") (at 285.75 204.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 929b315d-7372-4ac1-a4c2-9ce976754e05)
-    (property "Reference" "D49" (at 288.29 203.2 90)
+    (property "Reference" "D28" (at 288.29 203.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 288.29 205.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 285.75 204.47 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 285.75 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 285.75 204.47 0)
@@ -5499,7 +5499,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D49") (unit 1)
+          (reference "D28") (unit 1)
         )
       )
     )
@@ -5508,13 +5508,13 @@
   (symbol (lib_id "Device:D_Zener") (at 306.07 204.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99d600bf-e2e4-4c7f-9bef-2be40e71bfd0)
-    (property "Reference" "D51" (at 308.61 203.2 90)
+    (property "Reference" "D32" (at 308.61 203.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 308.61 205.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 306.07 204.47 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 306.07 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 306.07 204.47 0)
@@ -5525,7 +5525,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D51") (unit 1)
+          (reference "D32") (unit 1)
         )
       )
     )
@@ -5534,13 +5534,13 @@
   (symbol (lib_id "Device:D_Zener") (at 326.39 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a3360b0-d7fa-46f8-a273-5b4f55436aed)
-    (property "Reference" "D41" (at 328.93 111.76 90)
+    (property "Reference" "D35" (at 328.93 111.76 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 328.93 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 326.39 113.03 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 326.39 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 326.39 113.03 0)
@@ -5551,7 +5551,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D41") (unit 1)
+          (reference "D35") (unit 1)
         )
       )
     )
@@ -5560,13 +5560,13 @@
   (symbol (lib_id "Device:D_Zener") (at 275.59 204.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0ae2570-4ef2-49e1-a705-e507e739617b)
-    (property "Reference" "D48" (at 278.13 203.2 90)
+    (property "Reference" "D26" (at 278.13 203.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 278.13 205.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 275.59 204.47 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 275.59 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 275.59 204.47 0)
@@ -5577,7 +5577,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D48") (unit 1)
+          (reference "D26") (unit 1)
         )
       )
     )
@@ -5586,13 +5586,13 @@
   (symbol (lib_id "Device:R") (at 114.3 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a646c99a-8ee3-4e6e-ae55-f9427a9da7cf)
-    (property "Reference" "R26" (at 116.84 220.98 0)
+    (property "Reference" "R99" (at 116.84 220.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 116.84 223.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 112.522 222.25 90)
+    (property "Footprint" "jetson-orin-baseboard-footprints:0402-res" (at 112.522 222.25 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 114.3 222.25 0)
@@ -5603,7 +5603,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "R26") (unit 1)
+          (reference "R99") (unit 1)
         )
       )
     )
@@ -5612,13 +5612,13 @@
   (symbol (lib_id "Device:D_Zener") (at 275.59 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8291321-2818-4392-bb23-7985902c3d2f)
-    (property "Reference" "D24" (at 278.13 111.76 90)
+    (property "Reference" "D25" (at 278.13 111.76 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 278.13 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 275.59 113.03 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 275.59 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 275.59 113.03 0)
@@ -5629,7 +5629,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D24") (unit 1)
+          (reference "D25") (unit 1)
         )
       )
     )
@@ -5638,7 +5638,7 @@
   (symbol (lib_id "power:+3V3") (at 203.2 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa9241b4-b514-4a07-bb3e-52fa8c9fb4a1)
-    (property "Reference" "#PWR092" (at 207.01 96.52 0)
+    (property "Reference" "#PWR0135" (at 207.01 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 200.025 96.52 90)
@@ -5654,7 +5654,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
       )
     )
@@ -5663,13 +5663,13 @@
   (symbol (lib_id "Device:C") (at 337.82 204.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acec9256-5264-487c-bd04-deaedf72be64)
-    (property "Reference" "C85" (at 341.63 203.2 0)
+    (property "Reference" "C77" (at 341.63 203.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 341.63 205.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 338.7852 208.28 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:0402-cap" (at 338.7852 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 337.82 204.47 0)
@@ -5680,7 +5680,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "C85") (unit 1)
+          (reference "C77") (unit 1)
         )
       )
     )
@@ -5689,13 +5689,13 @@
   (symbol (lib_id "Device:D_Zener") (at 224.79 204.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2368725-4d0b-47f9-b235-a65c020e4bff)
-    (property "Reference" "D43" (at 227.33 203.2 90)
+    (property "Reference" "D16" (at 227.33 203.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 227.33 205.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 224.79 204.47 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 224.79 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 224.79 204.47 0)
@@ -5706,7 +5706,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D43") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
     )
@@ -5715,13 +5715,13 @@
   (symbol (lib_id "Device:R") (at 123.19 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3ebc5d2-e798-4e70-a1eb-06c8e2d7ff76)
-    (property "Reference" "R8" (at 125.73 220.98 0)
+    (property "Reference" "R100" (at 125.73 220.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 125.73 223.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 121.412 222.25 90)
+    (property "Footprint" "jetson-orin-baseboard-footprints:0402-res" (at 121.412 222.25 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 123.19 222.25 0)
@@ -5732,7 +5732,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "R8") (unit 1)
+          (reference "R100") (unit 1)
         )
       )
     )
@@ -5741,13 +5741,13 @@
   (symbol (lib_id "Device:D_Zener") (at 255.27 204.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7c020dc-4a36-4b50-b993-65c186d57e79)
-    (property "Reference" "D46" (at 257.81 203.2 90)
+    (property "Reference" "D22" (at 257.81 203.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 257.81 205.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 255.27 204.47 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 255.27 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 255.27 204.47 0)
@@ -5758,7 +5758,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D46") (unit 1)
+          (reference "D22") (unit 1)
         )
       )
     )
@@ -5767,7 +5767,7 @@
   (symbol (lib_id "power:GND") (at 255.27 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8408ab8-2dd2-4f27-a2cc-a99573d355fc)
-    (property "Reference" "#PWR0159" (at 255.27 217.17 0)
+    (property "Reference" "#PWR0146" (at 255.27 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.27 215.265 0)
@@ -5783,7 +5783,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0159") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -5792,7 +5792,7 @@
   (symbol (lib_id "power:GND") (at 234.95 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1ba5acd-eefc-4056-b43b-ddd44a3e2bdd)
-    (property "Reference" "#PWR0105" (at 234.95 125.73 0)
+    (property "Reference" "#PWR0141" (at 234.95 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.95 123.825 0)
@@ -5808,7 +5808,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -5817,13 +5817,13 @@
   (symbol (lib_id "Device:D_Zener") (at 234.95 204.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2693281-574e-45f6-a642-54ffc1326c50)
-    (property "Reference" "D44" (at 237.49 203.2 90)
+    (property "Reference" "D18" (at 237.49 203.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 237.49 205.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 234.95 204.47 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 234.95 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 234.95 204.47 0)
@@ -5834,7 +5834,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D44") (unit 1)
+          (reference "D18") (unit 1)
         )
       )
     )
@@ -5843,7 +5843,7 @@
   (symbol (lib_id "power:GND") (at 224.79 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid caa04058-9199-4b82-b1ad-30c8aceb758b)
-    (property "Reference" "#PWR0156" (at 224.79 217.17 0)
+    (property "Reference" "#PWR0140" (at 224.79 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 224.79 215.265 0)
@@ -5859,7 +5859,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0156") (unit 1)
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -5868,13 +5868,13 @@
   (symbol (lib_id "Device:D_Zener") (at 295.91 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5f91703-e648-49b5-8797-d8ae39d399c9)
-    (property "Reference" "D38" (at 298.45 111.76 90)
+    (property "Reference" "D29" (at 298.45 111.76 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 298.45 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 295.91 113.03 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 295.91 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 295.91 113.03 0)
@@ -5885,7 +5885,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D38") (unit 1)
+          (reference "D29") (unit 1)
         )
       )
     )
@@ -5894,13 +5894,13 @@
   (symbol (lib_id "Device:D_Zener") (at 214.63 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d9f33496-55b9-4694-abe0-fcd56b606499)
-    (property "Reference" "D18" (at 217.17 111.76 90)
+    (property "Reference" "D13" (at 217.17 111.76 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 217.17 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 214.63 113.03 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 214.63 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 214.63 113.03 0)
@@ -5911,7 +5911,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D18") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -5920,7 +5920,7 @@
   (symbol (lib_id "power:GND") (at 337.82 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dca6d396-a983-411c-a31f-4a1ee43fd07d)
-    (property "Reference" "#PWR0148" (at 337.82 125.73 0)
+    (property "Reference" "#PWR0161" (at 337.82 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 337.82 123.825 0)
@@ -5936,7 +5936,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0148") (unit 1)
+          (reference "#PWR0161") (unit 1)
         )
       )
     )
@@ -5945,7 +5945,7 @@
   (symbol (lib_id "power:GND") (at 224.79 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd44d39a-4714-41b1-889b-0dda4f8b1d99)
-    (property "Reference" "#PWR0101" (at 224.79 125.73 0)
+    (property "Reference" "#PWR0139" (at 224.79 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 224.79 123.825 0)
@@ -5961,7 +5961,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
       )
     )
@@ -5970,13 +5970,13 @@
   (symbol (lib_id "Device:R") (at 130.81 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df31be51-b3d2-483d-9e6b-85cc00b28511)
-    (property "Reference" "R9" (at 133.35 220.98 0)
+    (property "Reference" "R101" (at 133.35 220.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 133.35 223.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 129.032 222.25 90)
+    (property "Footprint" "jetson-orin-baseboard-footprints:0402-res" (at 129.032 222.25 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 130.81 222.25 0)
@@ -5987,7 +5987,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "R9") (unit 1)
+          (reference "R101") (unit 1)
         )
       )
     )
@@ -5996,7 +5996,7 @@
   (symbol (lib_id "power:GND") (at 245.11 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0048755-27cc-46b2-addd-689c45d37546)
-    (property "Reference" "#PWR0158" (at 245.11 217.17 0)
+    (property "Reference" "#PWR0144" (at 245.11 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 245.11 215.265 0)
@@ -6012,7 +6012,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0158") (unit 1)
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -6021,7 +6021,7 @@
   (symbol (lib_id "power:GND") (at 306.07 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e56a22b1-a1fd-4042-9d1b-d3b8554770e1)
-    (property "Reference" "#PWR0164" (at 306.07 217.17 0)
+    (property "Reference" "#PWR0156" (at 306.07 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 306.07 215.265 0)
@@ -6037,7 +6037,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0164") (unit 1)
+          (reference "#PWR0156") (unit 1)
         )
       )
     )
@@ -6046,13 +6046,13 @@
   (symbol (lib_id "SN74LV1T125DCKR:SN74LV1T125DCKR") (at 163.83 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e612aefc-4cf9-4e3a-ba9f-32a164bb7718)
-    (property "Reference" "U11" (at 163.83 155.575 0)
+    (property "Reference" "U19" (at 163.83 155.575 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SN74LV1T125DCKR" (at 163.83 158.115 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SN74LV1T125DCKR:SOT65P210X110-5N" (at 163.83 172.72 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:SOT65P210X110-5N" (at 163.83 172.72 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 163.83 172.72 0)
@@ -6105,7 +6105,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "U11") (unit 1)
+          (reference "U19") (unit 1)
         )
       )
     )
@@ -6114,7 +6114,7 @@
   (symbol (lib_id "power:+3V3") (at 203.2 187.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7508216-7fac-40a9-addc-b2f1117ff887)
-    (property "Reference" "#PWR0154" (at 207.01 187.96 0)
+    (property "Reference" "#PWR0136" (at 207.01 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 200.025 187.96 90)
@@ -6130,7 +6130,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0154") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
       )
     )
@@ -6139,13 +6139,13 @@
   (symbol (lib_id "F32R-1A7H1-11022:F32R-1A7H1-11022") (at 363.22 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed1a570c-1585-4d77-948e-440634e0c6d3)
-    (property "Reference" "J11" (at 370.205 71.12 0)
+    (property "Reference" "J6" (at 370.205 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "F32R-1A7H1-11022" (at 370.205 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "F32R-1A7H1-11022:AMPHENOL_F32R-1A7H1-11022" (at 363.22 71.12 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:AMPHENOL_F32R-1A7H1-11022" (at 363.22 71.12 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 363.22 71.12 0)
@@ -6215,7 +6215,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "J11") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -6224,13 +6224,13 @@
   (symbol (lib_id "SN74LV1T125DCKR:SN74LV1T125DCKR") (at 163.83 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee54ec4b-aac2-4b5e-8f70-bab49d5794ca)
-    (property "Reference" "U3" (at 163.83 64.135 0)
+    (property "Reference" "U18" (at 163.83 64.135 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SN74LV1T125DCKR" (at 163.83 66.675 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SN74LV1T125DCKR:SOT65P210X110-5N" (at 163.83 81.28 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:SOT65P210X110-5N" (at 163.83 81.28 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 163.83 81.28 0)
@@ -6283,7 +6283,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "U3") (unit 1)
+          (reference "U18") (unit 1)
         )
       )
     )
@@ -6292,13 +6292,13 @@
   (symbol (lib_id "Device:D_Zener") (at 245.11 204.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eef6aaa4-7e32-41eb-bf96-40c3de6a1290)
-    (property "Reference" "D45" (at 247.65 203.2 90)
+    (property "Reference" "D20" (at 247.65 203.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 247.65 205.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 245.11 204.47 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 245.11 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 245.11 204.47 0)
@@ -6309,7 +6309,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D45") (unit 1)
+          (reference "D20") (unit 1)
         )
       )
     )
@@ -6318,7 +6318,7 @@
   (symbol (lib_id "power:GND") (at 255.27 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0147fbf-9c20-47c5-ab5d-641e160cb7b5)
-    (property "Reference" "#PWR0138" (at 255.27 125.73 0)
+    (property "Reference" "#PWR0145" (at 255.27 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.27 123.825 0)
@@ -6334,7 +6334,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR0138") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -6343,7 +6343,7 @@
   (symbol (lib_id "power:+3V3") (at 127 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4dda8f7-0b26-42c4-9a6d-af03a21eb4e4)
-    (property "Reference" "#PWR087" (at 127 219.71 0)
+    (property "Reference" "#PWR0128" (at 127 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 127 210.82 0)
@@ -6359,7 +6359,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
@@ -6368,13 +6368,13 @@
   (symbol (lib_id "Device:D_Zener") (at 295.91 204.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8e3cfb4-fe8f-4d65-ad86-e6b720212896)
-    (property "Reference" "D50" (at 298.45 203.2 90)
+    (property "Reference" "D30" (at 298.45 203.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 298.45 205.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 295.91 204.47 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 295.91 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 295.91 204.47 0)
@@ -6385,7 +6385,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D50") (unit 1)
+          (reference "D30") (unit 1)
         )
       )
     )
@@ -6394,13 +6394,13 @@
   (symbol (lib_id "Device:D_Zener") (at 316.23 204.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe6b92f0-2508-4f6f-9a0b-0142fad241e5)
-    (property "Reference" "D52" (at 318.77 203.2 90)
+    (property "Reference" "D34" (at 318.77 203.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener" (at 318.77 205.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 316.23 204.47 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:DFN1006-2" (at 316.23 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://goodarksemi.com/docs/datasheets/esd_tvs/GSEZ5U045.pdf" (at 316.23 204.47 0)
@@ -6411,7 +6411,7 @@
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/74489b5f-faab-4d0f-b844-94a09965eefb"
-          (reference "D52") (unit 1)
+          (reference "D34") (unit 1)
         )
       )
     )

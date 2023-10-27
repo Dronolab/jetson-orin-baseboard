@@ -8754,7 +8754,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SIM7600X-M2-B_0_1"
-      (rectangle (start -22.86 45.72) (end 22.86 -42.545)
+      (rectangle (start -22.86 45.72) (end 22.86 -41.91)
         (stroke (width 0.254) (type default))
         (fill (type background))
       )
@@ -8768,7 +8768,7 @@
         (name "~{LED1}" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -45.085 90) (length 2.54) hide
+      (pin passive line (at 0 -44.45 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -8776,7 +8776,7 @@
         (name "3.3V" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at -25.4 -28.575 0) (length 2.54)
+      (pin output line (at -25.4 -29.21 0) (length 2.54)
         (name "PCM_SYNC" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
@@ -8784,19 +8784,19 @@
         (name "CONFIG_0" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -25.4 -31.115 0) (length 2.54)
+      (pin input line (at -25.4 -31.75 0) (length 2.54)
         (name "PCM_IN" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin bidirectional line (at -25.4 8.255 0) (length 2.54)
+      (pin bidirectional line (at -25.4 8.89 0) (length 2.54)
         (name "WoWWAN" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at -25.4 -33.655 0) (length 2.54)
+      (pin output line (at -25.4 -34.29 0) (length 2.54)
         (name "PCM_OUT" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at -25.4 3.175 0) (length 2.54)
+      (pin output line (at -25.4 3.81 0) (length 2.54)
         (name "DPR" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
       )
@@ -8804,19 +8804,19 @@
         (name "~{W_DISABLE2}" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -45.085 90) (length 2.54) hide
+      (pin passive line (at 0 -44.45 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at -25.4 -36.195 0) (length 2.54)
+      (pin output line (at -25.4 -36.83 0) (length 2.54)
         (name "PCM_CLK" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 22.86 -41.275 180) (length 2.54) hide
+      (pin no_connect line (at 22.86 -41.91 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -45.085 90) (length 2.54)
+      (pin power_in line (at 0 -44.45 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -8824,7 +8824,7 @@
         (name "USIM-RST" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 22.86 -38.735 180) (length 2.54) hide
+      (pin no_connect line (at 22.86 -39.37 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
@@ -8832,7 +8832,7 @@
         (name "USIM-CLK" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -45.085 90) (length 2.54) hide
+      (pin passive line (at 0 -44.45 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
@@ -8840,7 +8840,7 @@
         (name "USIM-DATA" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 22.86 -36.195 180) (length 2.54) hide
+      (pin no_connect line (at 22.86 -36.83 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
@@ -8848,15 +8848,15 @@
         (name "USIM_VDD" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 22.86 -33.655 180) (length 2.54) hide
+      (pin no_connect line (at 22.86 -34.29 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 22.86 -13.335 180) (length 2.54) hide
+      (pin no_connect line (at 22.86 -13.97 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -45.085 90) (length 2.54) hide
+      (pin passive line (at 0 -44.45 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
@@ -8868,7 +8868,7 @@
         (name "I2C_SCL" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 22.86 -31.115 180) (length 2.54) hide
+      (pin no_connect line (at 22.86 -31.75 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
@@ -8876,7 +8876,7 @@
         (name "I2C_SDA" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 22.86 -28.575 180) (length 2.54) hide
+      (pin no_connect line (at 22.86 -29.21 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
@@ -8884,7 +8884,7 @@
         (name "GPIO44" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -45.085 90) (length 2.54) hide
+      (pin passive line (at 0 -44.45 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "45" (effects (font (size 1.27 1.27))))
       )
@@ -8892,7 +8892,7 @@
         (name "GPIO43" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 22.86 -26.035 180) (length 2.54) hide
+      (pin no_connect line (at 22.86 -26.67 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
@@ -8900,11 +8900,11 @@
         (name "GPIO41" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 22.86 -23.495 180) (length 2.54) hide
+      (pin no_connect line (at 22.86 -24.13 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "49" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -45.085 90) (length 2.54) hide
+      (pin passive line (at 0 -44.45 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -8912,7 +8912,7 @@
         (name "GPIO40" (effects (font (size 1.27 1.27))))
         (number "50" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -45.085 90) (length 2.54) hide
+      (pin passive line (at 0 -44.45 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "51" (effects (font (size 1.27 1.27))))
       )
@@ -8920,7 +8920,7 @@
         (name "UART_DTR" (effects (font (size 1.27 1.27))))
         (number "52" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 22.86 -18.415 180) (length 2.54) hide
+      (pin no_connect line (at 22.86 -19.05 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "53" (effects (font (size 1.27 1.27))))
       )
@@ -8928,7 +8928,7 @@
         (name "UART_RTS" (effects (font (size 1.27 1.27))))
         (number "54" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 22.86 -15.875 180) (length 2.54) hide
+      (pin no_connect line (at 22.86 -16.51 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "55" (effects (font (size 1.27 1.27))))
       )
@@ -8936,7 +8936,7 @@
         (name "UART_CTS" (effects (font (size 1.27 1.27))))
         (number "56" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -45.085 90) (length 2.54) hide
+      (pin passive line (at 0 -44.45 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "57" (effects (font (size 1.27 1.27))))
       )
@@ -8984,7 +8984,7 @@
         (name "~{RESET}" (effects (font (size 1.27 1.27))))
         (number "67" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 22.86 -20.955 180) (length 2.54) hide
+      (pin no_connect line (at 22.86 -21.59 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "68" (effects (font (size 1.27 1.27))))
       )
@@ -8992,7 +8992,7 @@
         (name "CONFIG_1" (effects (font (size 1.27 1.27))))
         (number "69" (effects (font (size 1.27 1.27))))
       )
-      (pin bidirectional line (at -25.4 32.385 0) (length 2.54)
+      (pin bidirectional line (at -25.4 33.02 0) (length 2.54)
         (name "USB_D+" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -9000,7 +9000,7 @@
         (name "3.3V" (effects (font (size 1.27 1.27))))
         (number "70" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -45.085 90) (length 2.54) hide
+      (pin passive line (at 0 -44.45 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "71" (effects (font (size 1.27 1.27))))
       )
@@ -9008,7 +9008,7 @@
         (name "3.3V" (effects (font (size 1.27 1.27))))
         (number "72" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -45.085 90) (length 2.54) hide
+      (pin passive line (at 0 -44.45 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "73" (effects (font (size 1.27 1.27))))
       )
@@ -9024,7 +9024,7 @@
         (name "~{W_DISABLE1}" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin bidirectional line (at -25.4 29.845 0) (length 2.54)
+      (pin bidirectional line (at -25.4 30.48 0) (length 2.54)
         (name "USB_D-" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
