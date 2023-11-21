@@ -7,4 +7,5 @@
   (lib (name "SIM8066-6-1-14-01-A_REVA")(type "KiCad")(uri "${KIPRJMOD}/lib/SIM8066-6-1-14-01-A_REVA.kicad_sym")(options "")(descr ""))
   (lib (name "F32R-1A7H1-11022")(type "KiCad")(uri "${KIPRJMOD}/lib/F32R-1A7H1-11022.kicad_sym")(options "")(descr ""))
   (lib (name "XT30PW-M")(type "KiCad")(uri "${KIPRJMOD}/lib/XT30PW-M.kicad_sym")(options "")(descr ""))
+  (lib (name "SF72S006VBDR2500")(type "KiCad")(uri "${KIPRJMOD}/lib/SF72S006VBDR2500.kicad_sym")(options "")(descr ""))
 )

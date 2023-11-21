@@ -12543,8 +12543,8 @@
     (property "Val" "1k" (at 77.47 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 5b9999ff-f961-4310-8086-edb06e32ffb7))
-    (pin "2" (uuid f28d71c0-5a32-458e-8c55-6756030bf70d))
+    (pin "1" (uuid 51976b7d-d7cf-4b96-bafc-02a5686bfe95))
+    (pin "2" (uuid 4e2f45b3-9da6-4c0f-aeee-f3d9a5cc6d52))
     (instances
       (project "jetson-orin-baseboard"
         (path "/4b393452-b11e-416e-bc83-918ae3cab2f1/ea236701-ba50-4026-b890-5436b3eb8139"
